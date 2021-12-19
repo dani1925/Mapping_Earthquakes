@@ -19,7 +19,16 @@ let map = L.map("mapid", {
 }).addTo(map);
 
 // Get data from cities.js
-//let cityData = cities;
+let cityData = cities;
+
+// Coordinates for each point to be used in the line.
+// Coordinates for each point to be used in the polyline.
+let line = [
+  [33.9416, -118.4085],
+  [37.6213, -122.3790],
+  [40.7899, -111.9791],
+  [47.4502, -122.3088]
+];
 
 // Loop through the cities array and create one marker for each city.
 cityData.forEach(function(city) {
@@ -33,4 +42,8 @@ cityData.forEach(function(city) {
 .addTo(map);
 });
 
+// Create a polyline using the line coordinates and make the line red.
+L.polyline(line, {
+  color: "red"
+}).addTo(map);
 
