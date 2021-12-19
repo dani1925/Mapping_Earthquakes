@@ -40,6 +40,6 @@ d3.json(airportData).then(function(data) {
 L.geoJSON(data,)
 .bindPopup("<h2>" + airportData.features+ "</h2>" )
 .addTo(map);
-});...airportData.
+});
 
 
