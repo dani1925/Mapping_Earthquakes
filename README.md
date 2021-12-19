@@ -1,7 +1,7 @@
 
 # Mapping_Earthquakes.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/dani1925/Mapping_Earthquakes/blob/master/Captura%20de%20Pantalla%202021-12-19%20a%20la(s)%2013.04.27.png)
 
 ## Overview
 
